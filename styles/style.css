@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body { 
+  min-width: 300px;
+  min-height: 300px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -9,12 +14,14 @@
 }
 
 .website-intro {
+  flex: 1;
   display: flex;
   flex-direction: column;
   /* background-color: ; */
 }
 
 .header {
+  /* flex: 1; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -38,7 +45,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 250px;
+  width: 300px;
 }
 
 .website-name {
@@ -55,7 +62,8 @@
 }
 
 img {
-  width: 200px;
+  width: 100%;
+  max-width: 250px;
   height: auto;
   margin-top: 16px;
 }
@@ -70,22 +78,24 @@ img {
 
 .image-list {
   list-style: none;
+  flex: auto;
   display: flex;
-  /* flex-direction: row; */
-  padding: 0;
   margin: 0;
-  gap: 32px;
-  /* justify-content: space-evenly; */
+  gap: 80px;
+  justify-content: space-evenly; 
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .image-list p {
-  width: 140px;
+  max-width: 160px; 
   text-align: center;
-  margin-top: 0;
+  margin-top: 8px;
 }
 
 .image-list img {
-  width: 140px;
+  max-width: 160px; 
+  width: 100%;
   height: auto;
 }
 
@@ -93,16 +103,12 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
-}
-
-.quote-text {
-  width: 600px;
+  margin: 80px 10%;
+  max-width: 100%;
 }
 
 .author {
   align-self: flex-end;
-  margin-right: 180px;
 }
 
 .sign-up {
@@ -110,7 +116,8 @@ img {
   justify-content: center;
   align-items: center;
   margin: 72px;
-  gap: 100px;
+  gap: 20px 50px;
+  flex-wrap: wrap;
 }
 
 .action {
@@ -119,6 +126,7 @@ img {
 
 .action-desc {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .bt-sign-up-two {
