@@ -34,7 +34,7 @@ body {
   display: flex;
   list-style: none;
   /* margin-left: auto; */
-  gap: 8px;
+  gap: 24px;
   padding: 0;
 }
 
