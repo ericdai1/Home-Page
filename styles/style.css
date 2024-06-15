@@ -17,14 +17,17 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* background-color: ; */
+  background-color: #1F2937;
+  color: white;
+  padding-bottom: 50px;
 }
 
 .header {
   /* flex: 1; */
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 5%;
 }
 
 .links {
@@ -45,11 +48,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 300px;
+  color: #E5E7EB;
+  width: 400px;
 }
 
 .website-name {
   margin-bottom: 0;
+  font-size: 40px;
 }
 
 .website-subtext {
@@ -58,7 +63,12 @@ body {
 }
 
 .bt-sign-up-one {
+  color: white;
   width: 100px;
+  padding: 4px;
+  border-radius: 8px;
+  /* border: 1px solid white; */
+  background-color: #3882F6;
 }
 
 img {
@@ -74,6 +84,7 @@ img {
   align-items: center;
   margin-bottom: 8px;
   margin-top: 48px;
+  font-size: 24px;
 }
 
 .image-list {
@@ -81,6 +92,7 @@ img {
   flex: auto;
   display: flex;
   margin: 0;
+  padding: 0 16px 32px 16px;
   gap: 80px;
   justify-content: space-evenly; 
   flex-wrap: wrap;
@@ -91,6 +103,7 @@ img {
   max-width: 160px; 
   text-align: center;
   margin-top: 8px;
+  font-size: 16px;
 }
 
 .image-list img {
@@ -103,8 +116,12 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 80px 10%;
+  margin: 24px 0;
+  padding: 10% 10%;
   max-width: 100%;
+  font-style: italic;
+  font-size: 24px;
+  background-color: #E5E7EB;
 }
 
 .author {
@@ -115,9 +132,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 72px;
+  margin: 5% 10%;
+  padding: 16px;
   gap: 20px 50px;
   flex-wrap: wrap;
+  color: white;
+  background-color: #3882F6;
 }
 
 .action {
@@ -125,14 +145,23 @@ img {
 }
 
 .action-desc {
-  margin-top: 0;
+  margin-top: 4px;
   margin-bottom: 0;
+  padding-bottom: 16px;
 }
 
 .bt-sign-up-two {
-  height: 24px;
+  color: white;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: #3882F6;
 }
 
 .copyright {
+  background-color: #1F2937;
   text-align: center;
+  color: white;
+  padding: 16px;
+  margin: 0;
 }
