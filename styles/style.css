@@ -48,6 +48,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 24px;
+  flex-wrap: wrap;
 }
 
 .website-desc {
